@@ -1,0 +1,1 @@
+body{--size:1rem;display:-ms-grid;display:grid}.success{background:green}h1{font-size:var(--size)}h1 .hola{background:blue}

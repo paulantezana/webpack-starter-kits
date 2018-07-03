@@ -1,0 +1,19 @@
+body {
+    --size: 3rem;
+    display: grid;
+    background: yellow;
+    font-family: sans-serif;
+}
+
+.success{
+    background: green;
+}
+
+h1{
+    font-size: var(--size);
+    // :global{
+        .hola{
+            background: blue;
+        }
+    // }
+}
