@@ -1,0 +1,27 @@
+{
+  "name": "e-basic",
+  "version": "0.1.0",
+  "description": "apliacion de electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "build"
+  },
+  "keywords": [],
+  "author": "paul antezana",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.0.4",
+    "electron-builder": "^20.38.5"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "build": {
+    "appId": "com.paulantezana.electron",
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.ico"
+    }
+  }
+}
