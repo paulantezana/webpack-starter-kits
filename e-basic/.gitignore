@@ -78,3 +78,8 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+dist/
+public/*.js
+public/*.css
+public/*.json
+public/**/
